@@ -11,31 +11,46 @@
       margin: 0;
       padding: 0;
     }
+
     header {
       text-align: center;
-      padding: 30px 10px;
+      padding: 40px 10px;
       background: #1f2833;
       color: #66fcf1;
+      border-bottom: 2px solid #45a29e;
     }
+
     .track {
       max-width: 800px;
       margin: 30px auto;
       background: #1f2833;
-      padding: 20px;
-      border-radius: 8px;
+      padding: 25px;
+      border-radius: 10px;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
     }
+
+    .track:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 0 15px rgba(102, 252, 241, 0.3);
+    }
+
     h2 {
       color: #66fcf1;
+      margin-top: 0;
     }
+
     audio {
       width: 100%;
-      margin-top: 10px;
+      margin: 15px 0;
     }
+
     footer {
       text-align: center;
-      padding: 15px;
+      padding: 20px;
       background: #1f2833;
       color: #c5c6c7;
+      margin-top: 40px;
+      border-top: 2px solid #45a29e;
     }
   </style>
 </head>
